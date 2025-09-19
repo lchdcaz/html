@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="ISO-8859-1">
+    <meta name="viewport" content="width=device-width">
+    <title>&lt;title&gt; element</title>
+  </head>
+  <body>
+    <p>Japanese example: ご飯が熱い。</p>
+    <h1>&lt;h1&gt; element</h1>
+  </body>
+</html>
+<!--html范围-->
+html {
+  background-color: red;
+  font-size: 20px;
+}
+
+ul {
+  background: red;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+li {
+  margin-left: 20px;
+}
+<!--css范围-->
+const list = document.createElement('ul');
+const info = document.createElement('p');
+const html = document.querySelector('html');
+
+info.textContent = 'Below is a dynamic list. Click anywhere on the page to add a new list item. Click an existing list item to change its text to something else.';
+
+document.body.appendChild(info);
+document.body.appendChild(list);
+
+html.onclick = function() {
+  const listItem = document.createElement('li');
+  const listContent = prompt('What content do you want the list item to have?');
+  listItem.textContent = listContent;
+  list.appendChild(listItem);
+
+  listItem.onclick = function(e) {
+    e.stopPropagation();
+    const listContent = prompt('Enter new content for your list item');
+    this.textContent = listContent;
+  }
+}
+<!--js的范围-->

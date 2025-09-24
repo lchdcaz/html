@@ -1,0 +1,130 @@
+<!--机票查询 主页-->
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <title>lii</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="/机票查询.css">
+    </head>
+    <body>
+        <header>
+            <img src="https://th.bing.com/th/id/R.b573b34f9c95beac91c8f59ab95a9224?rik=YXEkEbVBzd5Y4w&pid=ImgRaw&r=0" alt="" style="width: 100px ; height: 60px; "/>
+            <h1>LII航空机票查询</h1>
+        </header>
+    <hr/>
+    <nav>
+        <a href="/主页.html">主页</a>
+        <a href="/航班查询.html">航班查询</a>
+        <a href="/个人介绍.html">个人介绍</a>
+    </nav>
+    <main>
+        <h2>如何使用此网站</h2>
+        <p>您好,欢迎来到LII航空机票查询网站，在这里我将为您介绍此网站的用法，祝你使用愉快</p>
+        <p>在登入界面后，我们可以看到网站上三个选项：主页、航班查询、个人介绍，在此我会一一介绍</p>
+            <P>主页：此网站的基本信息。</P>
+            <P>航班查询：基本的查询航班，你可以查询到飞往任何地方的机票（前提是有）。</P>
+            <P>个人介绍：此网站仅供自我学习参考，会介绍网站创始人的基本信息。</P>
+    </main>
+    <footer>
+        <address>tel:0966429192</address>
+        <a href="https://developer.mozilla.org/zh-CN/docs/Learn_web_development/Core/Accessibility">无障碍链接</a>
+    </footer>
+    </body>
+
+</html>
+<!--航班查询-->
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <title>lii</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="/机票查询.css">
+    </head>
+    <body>
+        <header>
+            <img src="https://th.bing.com/th/id/R.b573b34f9c95beac91c8f59ab95a9224?rik=YXEkEbVBzd5Y4w&pid=ImgRaw&r=0" alt="" style="width: 100px ; height: 60px; "/>
+            <h1>LII航空机票查询</h1>
+        </header>
+    <hr/>
+    <nav>
+        <a href="/主页.html">主页</a>
+        <a href="/航班查询.html">航班查询</a>
+        <a href="/个人介绍.html">个人介绍</a>
+    </nav>
+    <main>
+        <h2>航班查询</h2>
+        <p>航空公司选择：<a href="https://www.csair.com/us/zh/index.shtml">南方航空</a> <a href="https://www.ch.com/">春秋航空</a> <a href="https://www.uniair.com.tw/RWD/index.aspx">立荣航空</a> <a href="https://www.mandarin-airlines.com/">华信航空</a></p>
+    </main>
+    <footer>
+        <address>tel:0966429192</address>
+        <a href="https://developer.mozilla.org/zh-CN/docs/Learn_web_development/Core/Accessibility">无障碍链接</a>
+    </footer>
+    </body>
+
+</html>
+<!--个人介绍-->
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <title>lii</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="/机票查询.css">
+    </head>
+    <body>
+        <header>
+            <img src="https://th.bing.com/th/id/R.b573b34f9c95beac91c8f59ab95a9224?rik=YXEkEbVBzd5Y4w&pid=ImgRaw&r=0" alt="" style="width: 100px ; height: 60px; "/>
+            <h1>LII航空机票查询</h1>
+        </header>
+    <hr/>
+    <nav>
+        <a href="/主页.html">主页</a>
+        <a href="/航班查询.html">航班查询</a>
+        <a href="/个人介绍.html">个人介绍</a>
+    </nav>
+    <main>
+        <h2>个人介绍</h2>
+        <p>这是我第一次作网站，有点简陋但是可以展现出大部分学习到的东西，此外，我还加上了css，虽然是一知半解但是胜在会用，往后我会继续更新此网站来展示我的学习成果</p>
+        <ul>
+            <li>运用到的元素</li>
+            <li>a</li>
+            <li>p</li>
+            <li>img</li>
+            <li>main footer header address</li>
+            <li>h</li>
+        </ul>
+    </main>
+    <footer>
+        <address>tel:0966429192</address>
+        <a href="https://developer.mozilla.org/zh-CN/docs/Learn_web_development/Core/Accessibility">无障碍链接</a>
+    </footer>
+    </body>
+
+</html>
+<!--css-->
+body 
+{
+  margin: 0 auto;
+}
+
+nav
+{
+letter-spacing: 25px;
+text-align: center;
+}
+
+h1
+{
+  display: inline-block;
+  text-align: center;
+}
+
+header
+{
+  max-width: 1750px;
+  text-align: center;
+}
+
+main
+{
+  text-align: center;
+}

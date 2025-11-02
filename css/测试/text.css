@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  color: rgba(0, 0, 255, 1);
+  font-size: 2em;
+  font-family: serif;
+  text-decoration: 2px underline dashed blue;
+  border-bottom: 5px groove black;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+.job-title {
+  color: #999999;
+  font-weight: bold;
+}
+.a1:link{
+    color: blue;
+}
+.a1:visited{
+    color: black;
+}
+.a2:link{
+    color: aquamarine;
+}
+.a2:visited{
+    color: bisque;
+}
+a:hover {
+  text-decoration: none;
+}
+
+ul{
+    border: 5px dashed blue;
+}
+.job-title + p,p + p{
+    background-color: #f112f1;
+    background-image: url(../R-C.jpeg);}

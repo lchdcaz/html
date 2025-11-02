@@ -1,0 +1,11 @@
+p[class]{
+    background-color: blue;
+}
+
+p[class="a"]{
+    font-size: 20px;
+}
+
+p[class~="a"]{
+    border: dotted  2px black;
+}

@@ -1,0 +1,28 @@
+body 
+{
+  margin: 0 auto;
+}
+
+nav
+{
+letter-spacing: 25px;
+text-align: center;
+}
+
+h1
+{
+  display: inline-block;
+  text-align: center;
+}
+
+header
+{
+  background-image: url(OIP.jpeg);
+  width: 100px;
+  height: 100px;
+}
+
+main
+{
+  text-align: center;
+}
